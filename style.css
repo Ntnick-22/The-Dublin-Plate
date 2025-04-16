@@ -1,23 +1,44 @@
-* {
-  font-family: "PT Sans", serif;
-}
-
 .bg-navbar {
   background-color: #febd59;
 }
 
 .navbar .nav-link,
 .navbar .navbar-brand {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #edebd7;
+}
+
+h1 {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h3 {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h5,
+p {
+  font-family: "Roboto", sans-serif;
 }
 .logo {
   width: 100px;
 }
-.navbar.nav-link:hover {
+.nav-link:hover {
   color: #edebd7 !important;
-  border-bottom: 2px solid #edebd7;
+  text-decoration: underline;
 }
-
+li:hover {
+  color: #edebd7 !important;
+  text-decoration: underline;
+}
+.nav-link:hover {
+  border-bottom: red;
+}
 .active {
   color: #edebd7 !important;
   font-weight: bold;
@@ -28,7 +49,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .carousel-inner img {
-  max-height: 400px;
+  max-height: 500px;
   object-fit: cover;
 }
 
@@ -40,7 +61,7 @@
   text-align: center;
 }
 content {
-  background-color: #edebd7;
+  background-color: #febd59;
   color: #e3b23c;
 }
 .bg-light,
@@ -54,10 +75,22 @@ a {
 }
 
 li {
+  font-family: "Roboto", sans-serif;
   list-style: none;
   text-align: left;
 }
-/* button */
-#button-addon2 {
-  background-color: #c0392b;
+
+/*content */
+.content ul {
+  color: black;
+}
+/* footer */
+footer {
+  background-color: #febd59;
+}
+
+.feature-box i {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #ff9a3c;
 }
